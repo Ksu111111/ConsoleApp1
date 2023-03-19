@@ -19,6 +19,11 @@ namespace ConsoleApp1
             string name = Console.ReadLine();
             NewFeature(name);
             Console.WriteLine("Ля ля ля");
+            CashAdd();
+        }
+        static void CashAdd()
+        {
+            Console.WriteLine("Гони деньги вот моя карта 4567 8546 3425 1545");
         }
     }
 }
