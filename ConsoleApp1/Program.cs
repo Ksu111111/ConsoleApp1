@@ -8,10 +8,17 @@ namespace ConsoleApp1
 {
     internal class Program
     {
+        static void NewFeature(string name)
+        {
+            Console.WriteLine($"Привет, {name}, ты лошара)");
+
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Ля ля ля ");
-
+            Console.WriteLine("Введите имя");
+            string name = Console.ReadLine();
+            NewFeature(name);
+            Console.WriteLine("Ля ля ля");
         }
     }
 }
